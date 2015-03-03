@@ -6,13 +6,13 @@ FizzBuzz.prototype._isDivisibleBy = function(number, divisor) {
 };
 
 FizzBuzz.prototype.isDivisibleByThree = function(number) {
-  return _isDivisibleBy(number, 3);
+  return this._isDivisibleBy(number, 3);
 };
 
 FizzBuzz.prototype.isDivisibleByFive = function(number) {
-  return _isDivisibleBy(number, 5);
+  return this._isDivisibleBy(number, 5);
 };
 
 FizzBuzz.prototype.isDivisibleByFifteen = function(number) {
-  return _isDivisibleBy(number, 15);
+  return this._isDivisibleBy(number, 15);
 };
